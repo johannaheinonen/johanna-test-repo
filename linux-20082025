@@ -1,1 +1,9 @@
-x
+# How to Install Linux to Virtualbox?
+In this example the following components are in use
+- host operating system: Windows 11
+- Virtualization software: Virtualbox (7.1.12)
+- Debian 13.0.0 (Trixie)
+
+## subtitle
+<!-- This is a comment in Markdown -->
+<!-- [Add file: Upload](helloworld.png) -->
