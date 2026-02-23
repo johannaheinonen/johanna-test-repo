@@ -50,7 +50,7 @@ What is a Linux distribution?
   - subtype: debian
   - version: debian (__64__-bit)
   - Make sure the box ‘Proceed with Unattended Installation’ is not checked.  
-		- notice that in some earlier versions the default was the opposite.
+		- notice that in some earlier VirtualBox versions the default was the opposite. In this case click 'skip unattended installation'.
 
 ![Figure 2](./pictures/2_picturev2.png) 
  
