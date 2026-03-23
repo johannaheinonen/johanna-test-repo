@@ -14,7 +14,7 @@ Virtualbox installer for windows hosts is available here: https://www.virtualbox
 Virtualbox documentation: https://www.virtualbox.org/manual/    
 
 ## 2. How to Download Debian ISO image?
-In this example __debian-live-13.3.0-amd64-xfce.iso__ will be used. It can be downloaded from here: https://cdimage.debian.org/debian-cd/13.3.0-live/amd64/iso-hybrid/ (scroll down the page and find __debian-live-13.3.0-amd64-xfce.iso__ from the list).
+In this example __debian-live-13.3.0-amd64-xfce.iso__ will be used. It can be downloaded from here: https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/ (scroll down the page and find __debian-live-13.3.0-amd64-xfce.iso__ from the list).
 
 What is an ISO image?   
      - a 'Digital replica of the disk'  
