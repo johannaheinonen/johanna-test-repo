@@ -2,7 +2,7 @@
 In this example the following components are in use
 - host operating system: Windows 11
 - Virtualization software: Virtualbox (7.x)
-- Guest operating system: Debian 13.3.0 (Trixie)
+- Guest operating system: Debian 13.3.0 (Trixie) or Debian 13.4.0
 
 ## 1. Virtualbox installation  
 Pre-requisite:    
