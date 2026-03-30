@@ -129,7 +129,7 @@ Examples:
 Editors in Linux are used to create and modity text files like writing scripts, editing configuration files etc. Some common editors:
 - __nano__
 - older ones: vi, emacs, pico  
-- __micro__ (homework exercise)  
+- __micro__   
 
 ![Figure 3](./pictures/nano.png)  
 
