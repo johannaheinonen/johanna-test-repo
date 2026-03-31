@@ -117,7 +117,7 @@ Basic navigation (```less```):
 - __q__ quit  
 
 Examples:
-- view large files: ```less /usr/share/common-licences/GPL-3```
+- view large files: ```less /usr/share/common-licenses/GPL-3```
 - pipe command output: ```apt-cache search tree |less```
 - ls -l /etc | more  
 - ls -l /etc | less  
