@@ -88,7 +88,6 @@ Every directory, no matter how empty, includes these two entries so the system c
 ### cd 
 Change working directory
 - ```cd /etc``` (is the same as cd /etc/ )  
-- ```cd``` (go to home directory)
 - ```cd ..``` (go to parent directory, move one level up in the directory tree)
 - ```cd``` (straight to home directory)
 - ```cd /``` (go to root directory)
