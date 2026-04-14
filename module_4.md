@@ -201,8 +201,9 @@ If two users need to add and/or edit files in the same directory, for example an
 5) Enable the setgid bit on the directory. It ensures that all new files and directories created inside ```public-sites/``` automatically inherit the group ```webteam```, regardless of which user created them: ```sudo chmod g+s /home/linuxuser/public-sites```.  
 After this directory permissions will look like: ```drwxrwsr-x``` This prevents ownership problems when either user adds new files.
 6) Give the owner (linuxuser) and group (webteam) read/write access to this directory, and allow others to read (e.g. www-data):  
-   ```sudo chmod -R u=rwx,g=rwx,o=rx /home/linuxuser/public-sites```  
-7) Allow the group to enter the parent directory: ```sudo chmod g+rx /home/linuxuser```  (otherwise edituser will get permission denied error on accessing public-sites/)
+   ```sudo chmod -R u=rwx,g=rwx,o=rx /home/linuxuser/public-sites```
+   		__Notice:__ ```chmod -R``` must be used carefully, because it changes permissions on everything inside a directory and can break permissions or expose data if the 			contents aren’t meant to share the same access.  
+8) Allow the group to enter the parent directory: ```sudo chmod g+rx /home/linuxuser```  (otherwise edituser will get permission denied error on accessing public-sites/)
 
 
 ```
