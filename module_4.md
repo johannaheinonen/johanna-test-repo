@@ -244,7 +244,7 @@ After this directory permissions will look like: ```drwxrwsr-x``` This prevents 
 
  linuxuser creates file A:                           edituser creates file B:
  ───────────────────                            ────────────────────
-   owner: linuxuser                                     owner: editoruser
+   owner: linuxuser                                     owner: edituser
    group: webteam     (inherited from directory)        group: webteam
    perms: rw-rw-r--                                     perms: rw-rw-r--
 
