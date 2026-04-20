@@ -20,8 +20,8 @@ For a virtual machine with a public IP address an A record is needed:
 | -------- | ---------------------- | -------------|  
 | A record | @   | 20.54.80.64 |  
 | A record | www     | 20.54.80.64 |  
-| A record | testi001   | 20.123.25.20 |  
-| A record | www.testi001     | 20.123.25.20 |  
+| A record | test001   | 20.123.25.20 |  
+| A record | www.test001     | 20.123.25.20 |  
 
 DNS propagation may take some time, so before start creating TLS certificates check that DNS resolution works:  
 ```dig testi001.linuxkurssi.xyz```  
