@@ -92,7 +92,7 @@ Install CertBot:
 ```sudo apt-get install certbot python3-certbot-apache```  
 
 Enable TLS with CertBot:  
-```sudo certbot --apache -d testi001.linuxkurssi.xyz```  
+```sudo certbot --apache -d test001.linuxkurssi.xyz```  
 
 Certbot will:  
 - Detect the Apache virtual host  
