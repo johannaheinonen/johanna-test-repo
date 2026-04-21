@@ -93,6 +93,7 @@ Install CertBot:
 
 Enable TLS with CertBot:  
 ```sudo certbot --apache -d test001.linuxkurssi.xyz,www.test001.linuxkurssi.xyz```  
+This command will ask valid email address. Alternatively in testing environments parameter ```--register-unsafely-without-email``` can be used.
 
 Certbot will:  
 - Detect the Apache virtual host  
