@@ -140,5 +140,5 @@ The first step on a newly installed system is to update the package list. Run th
 
 ![Figure 17](./pictures/22_picturev2.png)
 
-You have now installed Debian 13.3 and are ready to begin working with your new system.  
+You have now installed Debian 13.x and are ready to begin working with your new system.  
 
