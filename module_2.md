@@ -59,7 +59,7 @@ Some directories:
 - __/media__ is directory where external storage will be automatically mounted when you plug it in, for example /media/cdrom  
 - /mnt directory is where you can manually mount storage devices or partitions  
 - /opt directory is for software that is not managed by system's package manager, for example software you build from source code   
-- /proc contains information about your computer, for example ´´´/proc/cpuinfo´´´ shows CPU model, number of cores etc.
+- /proc contains information about your computer, for example ```/proc/cpuinfo``` shows CPU model, number of cores etc.
 - /root is the home directory of the superuser  
 - /sbin is similar to /bin, but it contains applications that only the superuser will need  
 - __/var__ contains things like logs in the /var/log subdirectories. Logs are files that register events that happen on the system  
