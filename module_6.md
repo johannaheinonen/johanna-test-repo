@@ -57,8 +57,8 @@ Git always work with two copies of the project:
 
 Git clone creates a local copy of a remote repository. For example  
 
-- HTTPS protocol: ```git clone https://github.com/linux-spring-26/git-testing.git```  (authentication with personal access token, PAT)  
-- SSH protocol: ```git clone git@github.com:linux-spring-26/git-testing.git```  (authentication with ssh key pair)  
+- HTTPS protocol: ```git clone https://github.com/linuxkurssi/git-testing.git```  (authentication with personal access token, PAT)  
+- SSH protocol: ```git clone git@github.com:linuxkurssi/git-testing.git```  (authentication with ssh key pair)  
 - Notice: authentication to Github can be done with personal access token or ssh key pair. In both cases the related configuration need to be added into your GitHub account.
     - if using HTTPS protocol create personal access token (PAT).  
     - if using SSH protocol create a ssh key pair in your local machine (ssh client) and add public key to your GitHub account. If using non-default keyname, the ```~/.ssh/config``` file in your local machine needs to be updated/created.   
@@ -157,7 +157,7 @@ Compressing objects: 100% (3/3), done.
 Writing objects: 100% (3/3), 330 bytes | 165.00 KiB/s, done.
 Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
 remote: Resolving deltas: 100% (1/1), completed with 1 local object.
-To github.com:linux-spring-26/git-testing.git
+To github.com:linuxkurssi/git-testing.git
    3fb4000..9678f27  main -> main
 
 ```  
