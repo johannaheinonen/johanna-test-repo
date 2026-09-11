@@ -197,9 +197,9 @@ If two users need to add and/or edit files in the same directory, for example an
 2) Add both users to the group: ```sudo usermod -aG webteam linuxuser``` and ```sudo usermod -aG webteam edituser```  (Notice: Both users must log out and log back in before the new group membership becomes active.)
 3) Assign group ownership to webteam:  
    ```sudo chown linuxuser:webteam /home/linuxuser```  (this is required only because ```public-sites/``` is inside ```/home/linuxuser```)  
-   ```sudo chown -R linuxuser:webteam /home/linuxuser/public-sites```
-   	- before the command: ```drwxrwxr-x 2 linuxuser linuxuser 4096 Aug 31 14:01 public-sites```
-	- after the command: ```drwxrwxr-x 2 linuxuser webteam 4096 Aug 31 14:01 public-sites```    
+   ```sudo chown -R linuxuser:webteam /home/linuxuser/public-sites```  
+   	    - output before the command: ```drwxrwxr-x 2 linuxuser linuxuser 4096 Aug 31 14:01 public-sites```  
+	    - output after the command: ```drwxrwxr-x 2 linuxuser webteam 4096 Aug 31 14:01 public-sites```    
 5) Enable the setgid bit on the directory. It ensures that all new files and directories created inside ```public-sites/``` automatically inherit the group ```webteam```, regardless of which user created them: ```sudo chmod g+s /home/linuxuser/public-sites```.  
 After this directory permissions will look like: ```drwxrwsr-x``` This prevents ownership problems when either user adds new files.
 6) Give the owner (linuxuser) and group (webteam) read/write access to this directory, and allow others to read (e.g. www-data):  
