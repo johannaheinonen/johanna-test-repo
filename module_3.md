@@ -196,6 +196,7 @@ Check the Apache logs in /var/log/apache2/ whenever Apache2 is running but somet
     - 500 Internal Server Error  
 
 ## All Components
+```
 Internet User (Web Browser)
         |
         v
@@ -238,7 +239,7 @@ Internet User (Web Browser)
 | SSL/TLS Certificates          |
 | Automatic Renewal             |
 +-------------------------------+
-
+```
 
 ## References  
 https://httpd.apache.org/docs/2.4/vhosts/name-based.html  
