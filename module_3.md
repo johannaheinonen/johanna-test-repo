@@ -195,6 +195,50 @@ Check the Apache logs in /var/log/apache2/ whenever Apache2 is running but somet
     - 403 Forbidden  
     - 500 Internal Server Error  
 
+## All Components
+Internet User (Web Browser)
+        |
+        v
++-----------------------------+
+| DNS / Namecheap             |
+| tls-test0XX.linuxkurssi.xyz |
++-----------------------------+
+        |
+        v
++------------------+
+| Public IP Address|
++------------------+
+        |
+        v
++-------------------------------+
+| Firewall                      |
+| UFW / Security Group          |
+| 80 (HTTP)                     |
+| 443 (HTTPS)                   |
++-------------------------------+
+        |
+        v
++----------------------------------------+
+| VM / Virtual Machine                   |
+| Debian Linux                           |
+|                                        |
+|  +----------------------------------+  |
+|  | Apache2 Web Server               |  |
+|  | Virtual Hosts                    |  |
+|  | www.tls-test0XX.linuxkurssi.xyz  |  |
+|  +----------------------------------+  |
+|                                        |
+|  Web Application: Hello World!         |
++----------------------------------------+
+        ^
+        |
++-------------------------------+
+| Let's Encrypt                 |
+| Certbot                       |
+| SSL/TLS Certificates          |
+| Automatic Renewal             |
++-------------------------------+
+
 
 ## References  
 https://httpd.apache.org/docs/2.4/vhosts/name-based.html  
