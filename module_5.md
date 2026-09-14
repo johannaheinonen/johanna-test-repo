@@ -92,7 +92,7 @@ Install CertBot:
 ```sudo apt-get install certbot python3-certbot-apache```  
 
 Enable TLS with CertBot:  
-```sudo certbot --apache -d test001.linuxkurssi.xyz,www.test001.linuxkurssi.xyz```  
+```sudo certbot --apache -d tls-test0XX.linuxkurssi.xyz,www.tls-test0XX.linuxkurssi.xyz```  
 This command will ask a valid email address. Alternatively in testing environments parameter ```--register-unsafely-without-email``` can be used.
 
 Certbot will:  
