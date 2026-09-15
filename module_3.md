@@ -240,6 +240,7 @@ Internet User (Web Browser)
 | Automatic Renewal             |
 +-------------------------------+
 ```
+(AI assisted chart)
 
 ## References  
 https://httpd.apache.org/docs/2.4/vhosts/name-based.html  
