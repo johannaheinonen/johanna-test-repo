@@ -242,6 +242,11 @@ Examples - symbolic mode:
 		- add execute permissions to the user: ```chmod u+x script1.sh```   
 		- remove execute permissions from the user: ```chmod u-x script1.sh```  
 
+Directory permissions:
+- r (read) on a directory - Allows viewing the directory contents (listing filenames).   
+- x (execute) on a directory - Allows entering/traversing the directory and accessing files if their names are known. Does not allow listing the file names.  
+
+
 In general users and processes should be given only the minimum permissions necessary to perform their tasks.  
 
 
