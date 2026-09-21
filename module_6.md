@@ -190,6 +190,11 @@ Apache2 in docker container:
 ```sudo docker run -d -p 8080:80 --name my-apache httpd```  
 ```curl http://localhost:8080```  
 
+```sudo usermod -aG docker $USER``` will add user to group ```docker```. After that docker commands can be run without ```sudo```.  
+Security note: Users in the Docker group effectively have privileges equivalent to the root user. This is because Docker can be used to start privileged containers, which may allow a user to gain full access to the host system.  
+
+<img src="./pictures/privileged_container.png" width="400">
+
 
 ### Infrastructure as a code (IaC) and Environmanagement Tools  
 - Terraform or OpenTofu are declarative infrastructure‑as‑code frameworks for provisioning and managing cloud resources.
