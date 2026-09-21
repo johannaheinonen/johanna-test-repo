@@ -44,7 +44,7 @@ This information links commits to your profile and makes it possible for other c
 ```git config --global user.email "ID+username@users.noreply.github.com"```  or ```git config --global user.email "your email"```    
 ```git config --global user.name "Your Name"```   
 
-Parameter ```--global``` saves the settings in global Git configuration file that is usually located in ```~/.gitconfig```.  
+Parameter ```--global``` saves the settings in global Git configuration file that is usually located in ```~/.gitconfig``` file.  
  
 
 __Clone a Repository__
