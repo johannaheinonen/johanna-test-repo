@@ -7,6 +7,7 @@ When doing software development or infrastructure‑as‑code (IaC), a workstati
 - Running local builds, tests, and automation scripts  
 - Managing SSH keys and connecting to remote servers  
 - Installing and updating tools through package managers
+- Troubleshooting network problems using different monitoring tools
 
 A Linux development workstation is most effective when it’s configured as a complete, stable environment for writing, testing, and deploying software. It is often underestimated how much setup is required before it is possible to work efficiently.  
 
@@ -169,7 +170,11 @@ In real production environments, developers do not push code directly to the mai
 
 ### Editor/IDE  
 Install editor of your preference. For example:   
-- VS code + terminal editor is popular when creating Infrastructure as a code (IaC).  Debian does not include VS code in its official repositories. It can be downloaded from here: https://code.visualstudio.com/docs/setup/linux  
+- VS code + terminal editor is popular when creating Infrastructure as a code (IaC).  Debian does not include VS code in its official repositories. It can be downloaded from here: https://code.visualstudio.com/docs/setup/linux
+
+### WireShark
+Wireshark is a free and widely used network protocol analyzer that allows users to capture and examine network traffic in real time. With Wireshark it is possible to capture packets sent and received by a computer, inspect the contents of network protocols such as Ethernet, IP, TCP, UDP, HTTP, DNS, and TLS and troubleshoot network and connectivity issues.  
+Notice: Packet captures may contain sensitive information. Wireshark should only be used on networks and systems where you have permission to monitor traffic.  
 
 ### Docker
 
