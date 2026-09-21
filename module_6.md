@@ -193,7 +193,7 @@ Apache2 in docker container:
 ```sudo usermod -aG docker $USER``` will add user to group ```docker```. After that docker commands can be run without ```sudo```.  
 Security note: Users in the Docker group effectively have privileges equivalent to the root user. This is because Docker can be used to start privileged containers, which may allow a user to gain full access to the host system.  
 
-<img src="./pictures/privileged_container.png" width="400">
+<img src="./pictures/privileged_container.png" width="200">
 
 
 ### Infrastructure as a code (IaC) and Environmanagement Tools  
