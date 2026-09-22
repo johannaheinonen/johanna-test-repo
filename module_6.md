@@ -176,7 +176,7 @@ Install editor of your preference. For example:
 Wireshark is a free and widely used network protocol analyzer that allows users to capture and examine network traffic in real time. With Wireshark it is possible to capture packets sent and received by a computer, inspect the contents of network protocols such as Ethernet, IP, TCP, UDP, HTTP, DNS, and TLS and troubleshoot network and connectivity issues.  
 __Notice:__ Packet captures may contain sensitive information. Wireshark should only be used on networks and systems where you have permission to monitor traffic.  
 
-<img src="./pictures/wireshark.png" width="500">
+<img src="./pictures/wireshark.png" width="700">
 
 ### Docker
 
