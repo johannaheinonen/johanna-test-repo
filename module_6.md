@@ -27,7 +27,7 @@ Version control is a system that records changes to files over time so you can g
 - Git is the tool on your computer  
 - GitHub is the online platform that hosts Git projects.  
 
-A directory that Git will track is called a repository, or repo. The Git repository contains the whole project. Git will trace any changes made to that project. For example public github repository for Linux kernel is here: https://github.com/torvalds/linux  
+A directory that Git will track is called a repository, or repo. The Git repository contains the whole project. Git will trace any changes made to that project. For example public github repository for Linux kernel is here: https://github.com/torvalds/linux (but kernel.org is the official home of the Linux kernel project).  
 
 __Git Installation__
 
