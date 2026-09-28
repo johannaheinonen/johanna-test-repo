@@ -15,13 +15,11 @@ Notice:
 - ```.bashrc``` runs every time you open a terminal 
 - ```.profile``` runs once when you log in (e.g. ssh session or login to GUI)  
 
-Some commands are implemented directly inside ```Bash```. These are called shell built-ins. To check whether a command is built-in use ```type```-command:  
-Example: ```type cd ```  produces outcome:  
-```cd is a shell builtin```  
+Some commands are implemented directly inside Bash. These are called shell built-ins. To check whether a command is built-in use ```type```-command:  
+Example: ```type cd ``` produces outcome ```cd is a shell builtin```  
 
 Many common commands are not part of bash. They are separate executable programs. In this case ```type``` tells an external executable file.  
-Example: ```type mkdir``` produces outcome:  
-```mkdir is /usr/bin/mkdir```  
+Example: ```type mkdir``` produces outcome ```mkdir is /usr/bin/mkdir```  
 
 
 ## What is a shell script?
