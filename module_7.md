@@ -27,8 +27,10 @@ Shell scripts
 Example:  
 ```nano helloworld.sh```  
 
-```#!/bin/bash      # this tells the system which shell to use to interpret the script```  
+```#!/bin/bash```    
 ```echo "Hello, world!"```  
+
+The first line tells the system which shell to use to interpret the script.  
 
 How to run a shell script?
 1.  make the script executable:
