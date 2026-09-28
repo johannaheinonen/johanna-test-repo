@@ -188,7 +188,7 @@ Inst init [1.68] (1.69~deb13u1 Debian:13.1/stable [amd64])
 System is up to date.  
 
 ```  
-Example 2: ```.profile file```  
+Example 2: ```.profile``` file.    
 
 ## Loops 
 For loop:  
